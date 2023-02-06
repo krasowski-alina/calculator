@@ -1,0 +1,100 @@
+body {
+    background: url(https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80) center/cover no-repeat;
+    min-height: 100vh;
+    font-family: 'Cabin', sans-serif;
+    color: #F8B400;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 40px;
+    background-color: rgba(18, 91, 80, 0.9);
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    }
+    .section {
+    display: flex;
+    flex-direction: column;
+    }
+    .block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    .block-element {
+    background: rgb(255,229,180);
+    background: linear-gradient(0deg, rgba(255,229,180,1) 0%, rgba(255,165,0,1) 100%);
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: #125B50;
+    font-size: 20px;
+    }
+    h1 {
+    align-self: center;
+    color: #F8B400;
+    font-size: 40px;
+    }
+    p {
+    font-size: 20px;
+    }
+    input, select {
+    font-size: 15px;
+    padding: 8px;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 3px;
+    border: none;
+    }
+    .heading {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
+    color: #EE5007;
+    text-shadow: 0.5px 0.5px 0.5px #125B50;
+    }
+    button {
+    align-self: center;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Cabin', sans-serif;
+    color: #ffe5b4;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 5px;
+    width: 80%;
+    text-shadow: 1px 1px 1px #125B50;
+    }
+    form {
+    margin-left: 20px;
+    }
+    #addTip {
+    background-color: #FF6363;
+    padding: 3px;
+    }
+    #calc {
+    background-color: #EE5007;
+    padding: 10px;
+    }
+    #tipOptions {
+    align-self: center;
+    width: 80%;
+    border-radius: 5px;
+    display: none;
+    }
+    @media all and (max-width: 800px) {
+    .container{
+    width: 85%;
+    }
+    }
+    @media all and (max-width: 500px) {
+    .container{
+    width: 85%;
+    margin: 10px;
+    }
+    h1 {
+    font-size: 35px;
+    }
+    }
